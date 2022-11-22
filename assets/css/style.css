@@ -1,0 +1,200 @@
+
+.white{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.unset-bottom {
+    margin-bottom: unset;
+}
+.font-size10 {
+    font-size: 12px;
+}
+.font-size12 {
+    font-size: 12px;
+}
+
+.font-size13 {
+    font-size: 13px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.font-size15 {
+    font-size: 15px;
+}
+
+.margin-left3 {
+    margin-left: 3%;
+}
+.main-color{
+    color: #b88238;
+}
+   .main-btn{
+
+background-color:#edaa56 ;
+width: 100%;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+.main-btn:hover{
+
+    background-color:#029174 ;
+    width: 100%;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    }
+    
+
+/** End Main **/
+
+/** Bottom Navigation **/
+
+#footer {
+    position: absolute;
+}
+
+.
+
+.footer-icon {
+    font-size: 25px;
+}
+
+.active {
+    color: #01a283;
+}
+
+    /* product end */
+     /* table grib */
+    .table-grib{ width: 100%;}
+    .td-10{width:10%;}
+    .td-15{width:15%;}
+    .td-20{width:20%;}
+    .td-25{width:25%;}
+    .td-30{width:30%;}
+    .td-33{width:33%;}
+    .td-35{width:35%;}
+    .td-40{width:40%;}
+    .td-45{width:45%;}
+    .td-50{width:50%;}
+    .td-75{width:75%;}
+    .td-100{width:100%;}
+    /* table grib end */
+
+    footer{
+        background-color: #343a40;
+        color: #dadada;
+        padding: 20px;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        font-size: 13px;
+    }
+    .footer{
+    background-color:#323232;
+}
+
+
+     .navbar{
+            background-color: #f6f6f6;
+        }
+        .nav-link {
+            color: #80808f;
+            font-size: 20px;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-family: 'PT Serif', serif;
+            margin: 10px;
+        }
+        .nav-link:hover{
+            color: black;
+        }
+        .navbar-toggler{
+            color: #80808f;
+            background-color: #f9f9f9;
+        }
+        .logo{
+            width: 100px;
+        }
+         .frame{
+            margin-top: 130px;
+          }
+          #product{
+            background-color: #eaeaea;
+            padding: 40px;
+          }
+          .card{
+            margin-top: 15px;
+          }
+          .main-btn{
+            background-color: #e6b474;
+            color: white;
+          }
+          .main-btn:hover{
+             background-color: #edaa56;
+          }
+
+        @media only screen and (max-width: 600px) {
+          .logo{
+            width: 70px;
+             }
+          .nav-link{
+            font-size: 15px;
+          }
+          .frame{
+            margin-top: 100px;
+          }
+          .navbar-toggler-icon{
+            font-size: 18px;
+          }
+
+        }
+
+ .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}
+.owl-nav button:focus {
+    outline: none;
+}
